@@ -51,7 +51,7 @@
             <input type="text" name="pengarang" rows="10"required /><br/><br/>
 
             Tahun Terbit<br/>
-            <input type="date" name="tanggal_pinjam"><br/><br/>
+            <input type="date" name="tahun_terbit"><br/><br/>
 
             Jumlah Stok<br/>
             <input type="text" name="jumlah_stok" rows="10"required /><br/><br/>
