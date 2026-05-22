@@ -12,7 +12,7 @@ $row = mysqli_fetch_assoc($result);
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Edit Anggota</title>
+    <title>607062500008 Gabriel Neil</title>
 
     <html lang="en">
         <meta charset="UTF-8">

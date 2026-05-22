@@ -1,7 +1,7 @@
 <html>
 <head>
 
-    <title>Input Berita</title>
+    <title>607062500008 Gabriel Neil</title>
     <style>
         body {
             font-family: Arial, sans-serif;

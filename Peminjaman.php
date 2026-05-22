@@ -17,7 +17,7 @@ $result = mysqli_query($conn, $sql);
 <!DOCTYPE html>
 <html>
 <head>
-<title>Peminjaman</title>
+<title>607062500008 Gabriel Neil</title>
 <style>
 body {
             font-family: Arial, sans-serif;
