@@ -8,7 +8,11 @@ $tanggal_pinjam = $_POST['tanggal_pinjam'];
 $sql = "INSERT INTO peminjaman(id_anggota,id_buku,tanggal_pinjam)
 VALUES('$id_anggota','$id_buku','$tanggal_pinjam')";
 
-mysqli_query($conn, $sql);
+if (mysqli_query($conn, $sql)) {
 
-header("Location: peminjaman.php");
+    header("refresh:3;url=index.php");
+    echo "<p>Data berhasil disimpan.</p>";
+} else {
+     echo "<p>Ups, gagal : " . mysqli_error($conn) . "</p>";
+}
 ?>
