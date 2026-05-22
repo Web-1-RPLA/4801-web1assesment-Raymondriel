@@ -122,7 +122,7 @@
 
 
                 <td><?php echo $row[3]; ?></td>
-                <td><?php echo $row[4]; ?>
+                <td><?php echo $row[tahun_terbit]; ?>
                 <td><?php echo $row[5]; ?></td>
 
                 
